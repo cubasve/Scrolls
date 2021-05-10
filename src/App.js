@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
@@ -32,25 +31,33 @@ export default function App() {
       });
     });
   }, []);
+
   return (
-    <>
-    <div className="page">
-      Hello
+    <div id="animation" className="App">
+      {/* Page 1 */}
+      <div className="front-1 book page">
+        <h1>Page 1</h1>
+      </div>
+
+      {/* Page 2 */}
+      <div className="back-2 book page">
+        <h1>Page 2</h1>
+      </div>
+
+      {/* Page 3 */}
+      <div className="back-2 book page">
+        <h1>Page 2</h1>
+      </div>
+
+      {/* Page 4 */}
+      <div className="back-2 book page">
+        <h1>Page 2</h1>
+      </div>
+
+      {/* Page 5 */}
+      <div className="back-2 book page">
+        <h1>Page 2</h1>
+      </div>
     </div>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-    </>
   );
 }
