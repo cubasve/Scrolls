@@ -7,13 +7,12 @@
 
 }
 
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
-#animation {
+#book-animation {
   height: calc(((var(--page-count) + 2) * var(--page-scroll) * 1vh));
-  /* height: calc((13+2) * (25) * 1vh); */
 }
 
 .book {
@@ -22,11 +21,21 @@
   width: 48vmin;
   top: 50%;
   left: 50%;
-  transform: translateY((-50%));
+  transform: translateY(-50%);
+  transform-style: preserve-3d;
   perspective: 1200px;
 }
 
-.page {
+.book.scroll {
+  right: 50vw;
+  left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+}
+
+.book.page {
   transform-style: preserve-3d;
   position: absolute;
   left: 1px;
@@ -41,34 +50,24 @@
   z-index: calc(((var(--page-count) + 2) - var(--page-index)) * 2);
 }
 
+.book.cover {
+  border-radius: 5%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background-color: salmon;
+}
+
+/* 2nd part */
+
 .page {
   transform: rotateY(calc(var(--rotation) * 1deg));
   transform: translate3d(0, 0, calc((0.5 * var(--coefficient)) * 1px));
 }
-/* .front {
-  rotation: var(--rotation);
 
-
-  transform: rotateY(calc(0) * 1deg);
-  transform: translate3d(0, 0, calc(0.5 * 0 * 1px));
-  backface-visibility: hidden;
-}
-
-.back {
-  transform: rotateY(calc(180 * 1deg));
-  transform: translate3d(0, 0, calc(0.5 * 2 * 1px));
-} */
-
-.scroll {
-  right: 50vw;
-  left: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0.6;
-}
-
-.half {
+.page.half {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,13 +78,26 @@
   width: 100%;
 }
 
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page.half.front {
+  transform: rotateY(calc(0 * 1deg));
+  transform: translate3d(0, 0, calc((0.5 * 0) * 1px));
+  backface-visibility: hidden;
+}
+
+.page.half.back {
+  transform: rotateY(calc(180 * 1deg));
+  transform: translate3d(0, 0, calc((0.5 * 2) * 1px));
+}
+
+.content {
+  text-align: center;
   display: flex;
   flex-direction: column;
+  height: 100%;
+  width: 100%;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
+  border-radius: 5%;
+  padding: 20px;
+}
+
