@@ -33,31 +33,133 @@ export default function App() {
   }, []);
 
   return (
-    <div id="animation" className="App">
-      {/* Page 1 */}
-      <div className="front-1 book page">
-        <h1>Page 1</h1>
-      </div>
+    <div>
 
-      {/* Page 2 */}
-      <div className="back-2 book page">
-        <h1>Page 2</h1>
-      </div>
+      <main>
+        <div id="book-animation">
+          <div className="scroll book">
+            <h1>Intro</h1>
+          </div>
 
-      {/* Page 3 */}
-      <div className="back-2 book page">
-        <h1>Page 2</h1>
-      </div>
+          <div className="book" />
 
-      {/* Page 4 */}
-      <div className="back-2 book page">
-        <h1>Page 2</h1>
-      </div>
+          <div className="book" id="book">
 
-      {/* Page 5 */}
-      <div className="back-2 book page">
-        <h1>Page 2</h1>
-      </div>
+            {/* 1st Set */}
+            <div className="page book cover front book-page">
+              <div className="page half front">
+                <div className="content">
+                  <h1>Page 1</h1>
+                </div>
+              </div>
+
+              <div className="page half back">
+                <div className="content">
+                  <h1>Page 2</h1>
+                </div>
+              </div>
+            </div>
+
+            {/* 2nd Set */}
+            <div className="page book book-page">
+              <div className="page half front">
+                <div className="content">
+                  <h1>Page 3</h1>
+                </div>
+              </div>
+
+              <div className="page half back">
+                <div className="content">
+                  <h1>Page 4</h1>
+                </div>
+              </div>
+            </div>
+
+            {/* 3rd Set */}
+            <div className="page book book-page">
+              <div className="page half front">
+                <div className="content">
+                  <h1>Page 5</h1>
+                </div>
+              </div>
+
+              <div className="page half back">
+                <div className="content">
+                  <h1>Page 6</h1>
+                </div>
+              </div>
+            </div>
+
+            {/* 4th Set */}
+            <div className="page book book-page">
+              <div className="page half front">
+                <div className="content">
+                  <h1>Page 7</h1>
+                </div>
+              </div>
+
+              <div className="page half back">
+                <div className="content">
+                  <h1>Page 8</h1>
+                </div>
+              </div>
+            </div>
+
+            {/* 5th Set */}
+            <div className="page book book-page">
+              <div className="page half front">
+                <div className="content">
+                  <h1>Page 9</h1>
+                </div>
+              </div>
+
+              <div className="page half back">
+                <div className="content">
+                  <h1>Page 10</h1>
+                </div>
+              </div>
+            </div>
+
+            {/* 6th Set */}
+            <div className="page book book-page">
+              <div className="page half front">
+                <div className="content">
+                  <h1>Page 11</h1>
+                </div>
+              </div>
+
+              <div className="page half back">
+                <div className="content">
+                  <h1>Page 12</h1>
+                </div>
+              </div>
+            </div>
+
+            {/* 7th Set */}
+            <div className="page book book-page">
+              <div className="page half front">
+                <div className="content">
+                  <h1>Page 13</h1>
+                </div>
+              </div>
+
+              <div className="page half back">
+                <div className="content">
+                  <h1>Page 14</h1>
+                </div>
+              </div>
+            </div>
+
+            {/* Back of book */}
+            <div className="page book cover back book-page">
+              <div className="content">
+                <h1>End of Book</h1>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </main>
     </div>
   );
 }

@@ -41,7 +41,14 @@
   z-index: calc(((var(--page-count) + 2) - var(--page-index)) * 2);
 }
 
-.front {
+.page {
+  transform: rotateY(calc(var(--rotation) * 1deg));
+  transform: translate3d(0, 0, calc((0.5 * var(--coefficient)) * 1px));
+}
+/* .front {
+  rotation: var(--rotation);
+
+
   transform: rotateY(calc(0) * 1deg);
   transform: translate3d(0, 0, calc(0.5 * 0 * 1px));
   backface-visibility: hidden;
@@ -50,7 +57,7 @@
 .back {
   transform: rotateY(calc(180 * 1deg));
   transform: translate3d(0, 0, calc(0.5 * 2 * 1px));
-}
+} */
 
 .scroll {
   right: 50vw;
