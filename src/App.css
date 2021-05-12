@@ -1,10 +1,9 @@
 :root {
-  --rotation: 0;
-  --coefficient: 0;
-  --page-count: 13;
+  --page-count: 14;
   --page-index: 0;
-  --page-scroll: 25; 
-
+  --page-scroll: 25;
+  --rotation: 0;
+  --coefficient: 0; 
 }
 
 /* .App {
@@ -63,8 +62,8 @@
 /* 2nd part */
 
 .page {
-  transform: rotateY(calc(var(--rotation) * 1deg));
-  transform: translate3d(0, 0, calc((0.5 * var(--coefficient)) * 1px));
+  transform: rotateY(calc(var(--rotation) * 1deg)) 
+  translate3d(0, 0, calc((0.5 * var(--coefficient)) * 1px));
 }
 
 .page.half {
@@ -79,14 +78,14 @@
 }
 
 .page.half.front {
-  transform: rotateY(calc(0 * 1deg));
-  transform: translate3d(0, 0, calc((0.5 * 0) * 1px));
-  backface-visibility: hidden;
+  transform: rotateY(0deg) translate3d(0, 0, 0);
+  background-color: sienna;
 }
 
 .page.half.back {
-  transform: rotateY(calc(180 * 1deg));
-  transform: translate3d(0, 0, calc((0.5 * 2) * 1px));
+  transform: rotateY(180deg) translateZ(1px);
+  /* transform: rotateY(0deg); */
+  background-color: steelblue;
 }
 
 .content {

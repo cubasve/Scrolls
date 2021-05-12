@@ -1,13 +1,13 @@
-import './App.css';
 import { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import './App.css';
 
 export default function App() {
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
-    const book = Array.from(document.getElementsByClassName('page'));
+    const book = Array.from(document.getElementsByClassName('book-page'));
 
     book.forEach((page, index) => {
       gsap.set(page, { z: -index * 1 });
@@ -41,7 +41,7 @@ export default function App() {
             <h1>Intro</h1>
           </div>
 
-          <div className="book" />
+          {/* <div className="book" /> */}
 
           <div className="book" id="book">
 
