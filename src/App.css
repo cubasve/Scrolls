@@ -1,9 +1,7 @@
 :root {
-  --page-count: 14;
+  --page-count: 13;
   --page-index: 0;
   --page-scroll: 25;
-  --rotation: 0;
-  --coefficient: 0; 
 }
 
 /* .App {
@@ -59,12 +57,10 @@
   background-color: salmon;
 }
 
-/* 2nd part */
-
-.page {
+/* .page {
   transform: rotateY(calc(var(--rotation) * 1deg)) 
   translate3d(0, 0, calc((0.5 * var(--coefficient)) * 1px));
-}
+} */
 
 .page.half {
   display: flex;
@@ -78,14 +74,17 @@
 }
 
 .page.half.front {
-  transform: rotateY(0deg) translate3d(0, 0, 0);
+  /* transform: rotateY(0deg); */
+   /* translate3d(0, 0, 0); */
   background-color: sienna;
+  border-radius: 5%;
 }
 
 .page.half.back {
   transform: rotateY(180deg) translateZ(1px);
   /* transform: rotateY(0deg); */
   background-color: steelblue;
+  border-radius: 5%;
 }
 
 .content {
