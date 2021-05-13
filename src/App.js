@@ -3,6 +3,9 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import './App.css';
 
+import SetOne from './components/Set1';
+import SetTwo from './components/Set2';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
   faScroll,
@@ -61,13 +64,11 @@ export default function App() {
         {/* 1st Set */}
         {/* <div className="page book cover front book-page"> */}
         <div className="page book cover front book-page">
-          <div className="page half front">
+          <SetOne />
+          {/* <div className="page half front">
             <div className="content">
               <h1>Page 1</h1>
-              <span className="fa-layers fa-fw content">
-                <FontAwesomeIcon icon={faScroll} size="6x" />
-                <FontAwesomeIcon icon={faSyncAlt} size="2x" color="red" transform="right-2 up-5" />
-              </span>
+                <FontAwesomeIcon icon={faScroll} size="3x" />
               <h1>Scrolls</h1>
               <h3>A summary of Og Mandino's "The Greatest Salesman in the World"</h3>
 
@@ -80,12 +81,13 @@ export default function App() {
               <FontAwesomeIcon icon={faSyncAlt} size="3x" />
               <h3>Today I begin a new life</h3>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* 2nd Set */}
         <div className="page book book-page">
-          <div className="page half front">
+          <SetTwo />
+          {/* <div className="page half front">
             <div className="content">
               <h1>Page 3</h1>
               <FontAwesomeIcon icon={faHeart} size="3x" />
@@ -99,7 +101,7 @@ export default function App() {
               <FontAwesomeIcon icon={faFistRaised} size="3x" />
               <h3>I will persist until I succeed</h3>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* 3rd Set */}
