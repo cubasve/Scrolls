@@ -9,7 +9,7 @@ import SetThree from './components/Set3';
 import SetFour from './components/Set4';
 import SetFive from './components/Set5';
 import SetSix from './components/Set6';
-import SetSeven from './components/Set7';
+//import SetSeven from './components/Set7';
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { 
@@ -57,10 +57,11 @@ export default function App() {
 
   return (
     <main id="book-animation">
-      
+
       <div className="scroll book">
-        <h1>Intro</h1>
-        {/* <h3>Scroll to read the book</h3> */}
+        <div className="content">
+          <h3>Scroll down to read the book</h3>
+        </div>
       </div>
 
       <div className="book" id="book">
@@ -96,9 +97,9 @@ export default function App() {
         </div>
 
         {/* 7th Set */}
-        <div className="page book book-page">
+        {/* <div className="page book book-page">
           <SetSeven />
-        </div>
+        </div> */}
 
         {/* Back of book */}
         <div className="page book cover back book-page">

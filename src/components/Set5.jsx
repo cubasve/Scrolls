@@ -1,17 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
-    faScroll,
-    faSyncAlt, 
-    faHeart, 
-    faFistRaised, 
-    faPaw, 
-    faClock, 
-    faSmile, 
-    faGrinTears, 
     faChartLine, 
-    faRunning, 
-    faBrain, 
+    faGrinTears,
+    faScroll,
     } from '@fortawesome/free-solid-svg-icons';
 
 export default function setFive() {
@@ -19,17 +11,27 @@ export default function setFive() {
         <>
              <div className="page half front">
                 <div className="content">
-                    <h1>Page 9</h1>
-                    <FontAwesomeIcon icon={faChartLine} size="3x" />
-                    <h3>I will multiply my value a hundredfold</h3>
+                    {/* <h6>Page 9</h6> */}
+                    <span className="scroll-icon">
+                        <FontAwesomeIcon icon={faScroll} size="1x" />
+                        <span className="scroll-number">7</span>
+                        <FontAwesomeIcon icon={faScroll} size="1x" flip="horizontal" />
+                    </span>
+                    <h3>I will laugh at the world</h3>
+                    <FontAwesomeIcon icon={faGrinTears} size="3x" />
                 </div>
             </div>
 
             <div className="page half back">
                 <div className="content">
-                    <h1>Page 10</h1>
-                    <FontAwesomeIcon icon={faRunning} size="3x" />
-                    <h3>I will act now</h3>
+                    {/* <h6>Page 10</h6> */}
+                    <span className="scroll-icon">
+                        <FontAwesomeIcon icon={faScroll} size="1x" />
+                        <span className="scroll-number">8</span>
+                        <FontAwesomeIcon icon={faScroll} size="1x" flip="horizontal" />
+                    </span>
+                    <h3>I will multiply my value a hundredfold</h3>
+                    <FontAwesomeIcon icon={faChartLine} size="3x" />
                 </div>
             </div>
         </>

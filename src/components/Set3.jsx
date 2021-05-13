@@ -1,17 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
-    faScroll,
-    faSyncAlt, 
-    faHeart, 
     faFistRaised, 
     faPaw, 
-    faClock, 
-    faSmile, 
-    faGrinTears, 
-    faChartLine, 
-    faRunning, 
-    faBrain, 
+    faScroll,
     } from '@fortawesome/free-solid-svg-icons';
 
 export default function setThree() {
@@ -19,17 +11,27 @@ export default function setThree() {
         <>
              <div className="page half front">
                 <div className="content">
-                    <h1>Page 5</h1>
-                    <FontAwesomeIcon icon={faPaw} size="3x" />
-                    <h3>I am nature's greatest miracle</h3>
+                    {/* <h6>Page 5</h6> */}
+                    <span className="scroll-icon">
+                        <FontAwesomeIcon icon={faScroll} size="1x" />
+                        <span className="scroll-number">3</span>
+                        <FontAwesomeIcon icon={faScroll} size="1x" flip="horizontal" />
+                    </span>
+                    <h3>I will persist until I succeed</h3>
+                    <FontAwesomeIcon icon={faFistRaised} size="3x" />
                 </div>
             </div>
 
             <div className="page half back">
                 <div className="content">
-                    <h1>Page 6</h1>
-                    <FontAwesomeIcon icon={faClock} size="3x" />
-                    <h3>I will live this day as if it is my last</h3>
+                    {/* <h6>Page 6</h6> */}
+                    <span className="scroll-icon">
+                        <FontAwesomeIcon icon={faScroll} size="1x" />
+                        <span className="scroll-number">4</span>
+                        <FontAwesomeIcon icon={faScroll} size="1x" flip="horizontal" />
+                    </span>
+                    <h3>I am nature's greatest miracle</h3>
+                    <FontAwesomeIcon icon={faPaw} size="3x" />
                 </div>
             </div>
         </>

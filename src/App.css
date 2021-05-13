@@ -1,7 +1,7 @@
 :root {
-  --page-count: 13;
+  --page-count: 11;
   --page-index: 0;
-  --page-scroll: 25;
+  --page-scroll: 26;
 }
 
 /* .App {
@@ -57,11 +57,6 @@
   background-color: salmon;
 }
 
-/* .page {
-  transform: rotateY(calc(var(--rotation) * 1deg)) 
-  translate3d(0, 0, calc((0.5 * var(--coefficient)) * 1px));
-} */
-
 .page.half {
   display: flex;
   align-items: center;
@@ -96,3 +91,10 @@
   padding: 20px;
 }
 
+.scroll-icon {
+  display: inline;
+}
+
+.scroll-number {
+  padding: 0px 5px;
+}
