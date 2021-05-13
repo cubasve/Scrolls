@@ -99,3 +99,10 @@
   padding: 20px;
 }
 
+.icon {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
