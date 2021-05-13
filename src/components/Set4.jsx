@@ -14,22 +14,22 @@ import {
     faBrain, 
     } from '@fortawesome/free-solid-svg-icons';
 
-export default function setTwo() {
+export default function setFour() {
     return (
         <>
             <div className="page half front">
                 <div className="content">
-                    <h1>Page 3</h1>
-                    <FontAwesomeIcon icon={faHeart} size="3x" />
-                    <h3>I will greet this day with love in my heart</h3>
+                    <h1>Page 7</h1>
+                    <FontAwesomeIcon icon={faSmile} size="3x" />
+                    <h3>I will be the master of my emotions</h3>
                 </div>
             </div>
 
             <div className="page half back">
                 <div className="content">
-                    <h1>Page 4</h1>
-                    <FontAwesomeIcon icon={faFistRaised} size="3x" />
-                    <h3>I will persist until I succeed</h3>
+                    <h1>Page 8</h1>
+                    <FontAwesomeIcon icon={faGrinTears} size="3x" />
+                    <h3>I will laugh at the world</h3>
                 </div>
             </div>
         </>

@@ -22,5 +22,5 @@ export default function setOne() {
                 </div>
             </div>
         </>
-    )
+    );
 }
