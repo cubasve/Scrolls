@@ -65,41 +65,12 @@ export default function App() {
       </div>
 
       <div className="book" id="book">
-
-        {/* 1st Set */}
-        <div className="page book cover front book-page">
-          <SetOne />
-        </div>
-
-        {/* 2nd Set */}
-        <div className="page book book-page">
-          <SetTwo />
-        </div>
-
-        {/* 3rd Set */}
-        <div className="page book book-page">
-          <SetThree />
-        </div>
-
-        {/* 4th Set */}
-        <div className="page book book-page">
-          <SetFour />
-        </div>
-
-        {/* 5th Set */}
-        <div className="page book book-page">
-          <SetFive />
-        </div>
-
-        {/* 6th Set */}
-        <div className="page book book-page">
-          <SetSix />
-        </div>
-
-        {/* 7th Set */}
-        {/* <div className="page book book-page">
-          <SetSeven />
-        </div> */}
+        <SetOne />
+        <SetTwo />
+        <SetThree />
+        <SetFour />
+        <SetFive />
+        <SetSix />
 
         {/* Back of book */}
         <div className="page book cover back book-page">

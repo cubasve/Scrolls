@@ -8,7 +8,7 @@ import {
 
 export default function setFive() {
     return (
-        <>
+        <div className="page book book-page">
              <div className="page half front">
                 <div className="content">
                     {/* <h6>Page 9</h6> */}
@@ -34,6 +34,6 @@ export default function setFive() {
                     <FontAwesomeIcon icon={faChartLine} size="3x" />
                 </div>
             </div>
-        </>
+        </div>
     );
 }

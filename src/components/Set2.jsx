@@ -8,7 +8,7 @@ import {
 
 export default function setTwo() {
     return (
-        <>
+        <div className="page book book-page">
             <div className="page half front">
                 <div className="content">
                     {/* <h6>Page 3</h6> */}
@@ -34,6 +34,6 @@ export default function setTwo() {
                     <FontAwesomeIcon icon={faHeart} size="3x" />
                 </div>
             </div>
-        </>
+        </div>
     );
 }

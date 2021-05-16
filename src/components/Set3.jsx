@@ -8,7 +8,7 @@ import {
 
 export default function setThree() {
     return (
-        <>
+        <div className="page book book-page">
              <div className="page half front">
                 <div className="content">
                     {/* <h6>Page 5</h6> */}
@@ -34,6 +34,6 @@ export default function setThree() {
                     <FontAwesomeIcon icon={faPaw} size="3x" />
                 </div>
             </div>
-        </>
+        </div>
     );
 }

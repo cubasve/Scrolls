@@ -4,7 +4,7 @@ import { faScroll } from '@fortawesome/free-solid-svg-icons';
 
 export default function setOne() {
     return (
-        <>
+        <div className="page book cover front book-page">
             <div className="page half front">
                 <div className="content">
                     {/* <h6>Page 1</h6> */}
@@ -22,6 +22,6 @@ export default function setOne() {
                     {/* <h6>Page 2</h6> */}
                 </div>
             </div>
-        </>
+        </div>
     );
 }

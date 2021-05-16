@@ -8,7 +8,7 @@ import {
 
 export default function setFour() {
     return (
-        <>
+        <div className="page book book-page">
             <div className="page half front">
                 <div className="content">
                     {/* <h6>Page 7</h6> */}
@@ -34,6 +34,6 @@ export default function setFour() {
                     <FontAwesomeIcon icon={faSmile} size="3x" />
                 </div>
             </div>
-        </>
+        </div>
     );
 }

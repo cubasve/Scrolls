@@ -8,7 +8,7 @@ import {
 
 export default function setSix() {
     return (
-        <>
+        <div className="page book book-page">
             <div className="page half front">
                 <div className="content">
                     {/* <h6>Page 11</h6> */}
@@ -34,6 +34,6 @@ export default function setSix() {
                     <FontAwesomeIcon icon={faBrain} size="3x" />
                 </div>
             </div>
-        </>
+        </div>
     );
 }
