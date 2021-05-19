@@ -19,6 +19,15 @@ export default function setFour() {
                     </span>
                     <h3>I will live this day as if it is my last</h3>
                     <FontAwesomeIcon icon={faClock} size="3x" />
+                    <p>
+                        I will avoid with fury the killers of time.
+                        Procrastination I will destroy with action.
+                        The duties of today I shall fulfill today.
+                        This day I will make the best day of my life.
+                        I will make every hour count and each minute I will trade only for something of value.
+                        Each minute of today will be more fruitful than hours of yesterday.
+                        My last must be my best.
+                    </p>
                 </div>
             </div>
 
@@ -32,6 +41,9 @@ export default function setFour() {
                     </span>
                     <h3>I will be the master of my emotions</h3>
                     <FontAwesomeIcon icon={faSmile} size="3x" />
+                    <p>
+
+                    </p>
                 </div>
             </div>
         </div>
