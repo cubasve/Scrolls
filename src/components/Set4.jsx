@@ -42,7 +42,12 @@ export default function setFour() {
                     <h3>I will be the master of my emotions</h3>
                     <FontAwesomeIcon icon={faSmile} size="3x" />
                     <p>
-
+                        {/* Each day I awaken with moods that have changed from yesterday. */}
+                        Trees and plants depend on the weather to flourish but I make my own weather.
+                        Weak is he who permits his thoughts to control his actions;
+                        strong is he who forces his actions to control his thoughts.
+                        I am prepared to control whatever personality awakes in me each day.
+                        I will master my moods through positive action and when I master my moods I will control my destiny.
                     </p>
                 </div>
             </div>
