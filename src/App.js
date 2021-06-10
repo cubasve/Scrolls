@@ -9,22 +9,26 @@ import SetThree from './components/Set3';
 import SetFour from './components/Set4';
 import SetFive from './components/Set5';
 import SetSix from './components/Set6';
-//import SetSeven from './components/Set7';
+import SetSeven from './components/Set7';
+import SetEight from './components/Set8';
+import SetNine from './components/Set9';
+import SetTen from './components/Set10';
+import SetEleven from './components/Set11';
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { 
-//     faScroll,
-//     faSyncAlt, 
-//     faHeart, 
-//     faFistRaised, 
-//     faPaw, 
-//     faClock, 
-//     faSmile, 
-//     faGrinTears, 
-//     faChartLine, 
-//     faRunning, 
-//     faBrain, 
-//     } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { 
+    faScroll,
+    faSyncAlt, 
+    faHeart, 
+    faFistRaised, 
+    faPaw, 
+    faClock, 
+    faSmile, 
+    faGrinTears, 
+    faChartLine, 
+    faRunning, 
+    faBrain, 
+    } from '@fortawesome/free-solid-svg-icons';
 
 export default function App() {
 
@@ -71,11 +75,26 @@ export default function App() {
         <SetFour />
         <SetFive />
         <SetSix />
+        <SetSeven />
+        <SetEight />
+        <SetNine />
+        <SetTen />
+        <SetEleven />
 
         {/* Back of book */}
         <div className="page book cover back book-page">
           <div className="content">
             <h1>End of Book</h1>
+            <FontAwesomeIcon icon={faBrain} size="3x" />
+            <p>
+                Ask for guidance above all things.
+                Guide me so that I may acquire ability equal to my opportunities.
+                Teach me how to hunt with words and prosper with love so that I may
+                be a lion among men and an eagle in the market place.
+                Bathe me in good habits that the bad ones may drown.
+                Discipline me in the habit of trying and trying again.
+                Suffer me to know that all things shall pass; yet help me to count my blessings today.
+            </p>
           </div>
         </div>
 

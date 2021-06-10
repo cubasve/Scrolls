@@ -7,7 +7,7 @@ export default function setOne() {
         <div className="page book cover front book-page">
             <div className="page half front">
                 <div className="content">
-                    {/* <h6>Page 1</h6> */}
+                    <h6>Page 1</h6>
                     <span className="scroll-icon">
                         <FontAwesomeIcon icon={faScroll} size="3x" />
                         <FontAwesomeIcon icon={faScroll} size="3x" flip="horizontal" />
@@ -19,7 +19,7 @@ export default function setOne() {
 
             <div className="page half back">
                 <div className="content">
-                    {/* <h6>Page 2</h6> */}
+                    <h6>Page 2</h6>
                 </div>
             </div>
         </div>

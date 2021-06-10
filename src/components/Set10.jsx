@@ -14,34 +14,35 @@ import {
     faBrain, 
     } from '@fortawesome/free-solid-svg-icons';
 
-export default function setSeven() {
+export default function setTen() {
     return (
         <>
             <div className="page half front">
                 <div className="content">
-                    <h1>Page 13</h1>
-                    <FontAwesomeIcon icon={faClock} size="3x" />
+                    <h1>Page 19</h1>
+                    <FontAwesomeIcon icon={faChartLine} size="3x" />
                     <p>
-                        I will avoid with fury the killers of time.
-                        Procrastination I will destroy with action.
-                        The duties of today I shall fulfill today.
-                        This day I will make the best day of my life.
-                        I will make every hour count and each minute I will trade only for something of value.
-                        Each minute of today will be more fruitful than hours of yesterday.
-                        My last must be my best.
+                        I will not commit not the terrible crime of aiming too low.
+                        I will do the work that a failure will not do.
+                        I will always let my reach exceed my grasp.
+                        I will never be content with my performance in the market.
+                        I will always raise my goals as soon as they are attained.
+                        I will always strive to make the next hour better than this one.
+                        I will always announce my goals to the world.
                     </p>
                 </div>
             </div>
 
             <div className="page half back">
                 <div className="content">
-                    <h1>Page 14</h1>
+                    <h1>Page 20</h1>
                     <span className="scroll-icon">
                         <FontAwesomeIcon icon={faScroll} size="1x" />
-                        <span className="scroll-number">6</span>
+                        <span className="scroll-number">9</span>
                         <FontAwesomeIcon icon={faScroll} size="1x" flip="horizontal" />
                     </span>
-                    <h3>I will be the master of my emotions</h3>
+                    <h3>I will act now</h3>
+                    <FontAwesomeIcon icon={faRunning} size="3x" />
                 </div>
             </div>
         </>

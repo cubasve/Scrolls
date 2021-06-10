@@ -1,6 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
+    faHeart,
+    faFistRaised,
     faClock, 
     faScroll,
     faSmile, 
@@ -11,44 +13,28 @@ export default function setFour() {
         <div className="page book book-page">
             <div className="page half front">
                 <div className="content">
-                    {/* <h6>Page 7</h6> */}
-                    <span className="scroll-icon">
-                        <FontAwesomeIcon icon={faScroll} size="1x" />
-                        <span className="scroll-number">5</span>
-                        <FontAwesomeIcon icon={faScroll} size="1x" flip="horizontal" />
-                    </span>
-                    <h3>I will live this day as if it is my last</h3>
-                    <FontAwesomeIcon icon={faClock} size="3x" />
+                    <h6>Page 7</h6>
+                    <FontAwesomeIcon icon={faHeart} size="3x" />
                     <p>
-                        I will avoid with fury the killers of time.
-                        Procrastination I will destroy with action.
-                        The duties of today I shall fulfill today.
-                        This day I will make the best day of my life.
-                        I will make every hour count and each minute I will trade only for something of value.
-                        Each minute of today will be more fruitful than hours of yesterday.
-                        My last must be my best.
+                        I will look on all things with love.
+                        I will love the ambitious for they can inspire me. 
+                        I will love the failures for they teach me. 
+                        Love is my shield to repulse the arrows of hate and the spears of anger.
+                        And most of all I will love myself. For when I do I will zealously inspect all things which enter my body, my mind, my soul, and my heart.
                     </p>
                 </div>
             </div>
 
             <div className="page half back">
                 <div className="content">
-                    {/* <h6>Page 8</h6> */}
+                    <h6>Page 8</h6>
                     <span className="scroll-icon">
                         <FontAwesomeIcon icon={faScroll} size="1x" />
-                        <span className="scroll-number">6</span>
+                        <span className="scroll-number">3</span>
                         <FontAwesomeIcon icon={faScroll} size="1x" flip="horizontal" />
                     </span>
-                    <h3>I will be the master of my emotions</h3>
-                    <FontAwesomeIcon icon={faSmile} size="3x" />
-                    <p>
-                        {/* Each day I awaken with moods that have changed from yesterday. */}
-                        Trees and plants depend on the weather to flourish but I make my own weather.
-                        Weak is he who permits his thoughts to control his actions;
-                        strong is he who forces his actions to control his thoughts.
-                        I am prepared to control whatever personality awakes in me each day.
-                        I will master my moods through positive action and when I master my moods I will control my destiny.
-                    </p>
+                    <h3>I will persist until I succeed</h3>
+                    <FontAwesomeIcon icon={faFistRaised} size="3x" />
                 </div>
             </div>
         </div>

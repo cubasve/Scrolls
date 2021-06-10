@@ -1,7 +1,9 @@
 :root {
-  --page-count: 11;
+  --page-count: 23;
+  /* 11 */
   --page-index: 0;
-  --page-scroll: 26;
+  --page-scroll: 60;
+  /* 26 */
 }
 
 /* .App {
