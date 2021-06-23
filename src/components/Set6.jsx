@@ -15,14 +15,14 @@ export default function setSix() {
                 <div className="content">
                     <h6>Page 11</h6>
                     <FontAwesomeIcon icon={faPaw} size="3x" />
-                    <p>
-                        All men are my brothers yet I am different from each.
-                        I am a unique creature.
-                        Henceforth, I will capitalize on this difference for it is an asset to be promoted to the fullest.
-                        I will place my uniqueness on display in the market place.
-                        I will begin now to accent my differences; hide my similarities.
-                        I will win for I am unique.
-                    </p>
+                    <ul>
+                        <li>All men are my brothers yet I am different from each.</li>
+                        <li>I am a unique creature.</li>
+                        <li>Henceforth, I will capitalize on this difference for it is an asset to be promoted to the fullest.</li>
+                        <li>I will place my uniqueness on display in the market place.</li>
+                        <li>I will begin now to accent my differences; hide my similarities.</li>
+                        <li>I will win for I am unique.</li>
+                    </ul>
                 </div>
             </div>
 

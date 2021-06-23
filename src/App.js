@@ -75,11 +75,11 @@ export default function App() {
         <SetFour />
         <SetFive />
         <SetSix />
-        <SetSeven />
-        <SetEight />
-        <SetNine />
-        <SetTen />
-        <SetEleven />
+        {/* <SetSeven />
+        <SetEight /> */}
+        {/* <SetNine /> */}
+        {/* <SetTen /> */}
+        {/* <SetEleven /> */}
 
         {/* Back of book */}
         <div className="page book cover back book-page">

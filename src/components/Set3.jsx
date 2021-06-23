@@ -15,12 +15,12 @@ export default function setThree() {
                 <div className="content">
                     <h6>Page 5</h6>
                     <FontAwesomeIcon icon={faSyncAlt} size="3x" />
-                    <p>
-                        The only difference between those who have failed and those who have succeeded lies in the difference of their habits. 
-                        Good habits are the key to all success.
-                        Bad habits are the unlocked door to failure.
-                        Thus, I will form good habits and become their slave.
-                    </p>
+                    <ul>
+                        <li>The only difference between those who have failed and those who have succeeded lies in the difference of their habits. </li>
+                        <li>Good habits are the key to all success.</li>
+                        <li>Bad habits are the unlocked door to failure.</li>
+                        <li>Thus, I will form good habits and become their slave.</li>
+                    </ul>
                 </div>
             </div>
 

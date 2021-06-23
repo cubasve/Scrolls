@@ -15,13 +15,13 @@ export default function setFour() {
                 <div className="content">
                     <h6>Page 7</h6>
                     <FontAwesomeIcon icon={faHeart} size="3x" />
-                    <p>
-                        I will look on all things with love.
-                        I will love the ambitious for they can inspire me. 
-                        I will love the failures for they teach me. 
-                        Love is my shield to repulse the arrows of hate and the spears of anger.
-                        And most of all I will love myself. For when I do I will zealously inspect all things which enter my body, my mind, my soul, and my heart.
-                    </p>
+                    <ul>
+                        <li>I will look on all things with love.</li>
+                        <li>I will love the ambitious for they can inspire me. </li>
+                        <li>I will love the failures for they teach me.</li>
+                        <li>Love is my shield to repulse the arrows of hate and the spears of anger.</li>
+                        <li>And most of all I will love myself. For when I do I will zealously inspect all things which enter my body, my mind, my soul, and my heart.</li>
+                    </ul>
                 </div>
             </div>
 
