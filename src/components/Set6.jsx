@@ -16,12 +16,12 @@ export default function setSix() {
                     <h6>Page 11</h6>
                     <FontAwesomeIcon icon={faPaw} size="3x" />
                     <ul>
-                        <li>All men are my brothers yet I am different from each.</li>
+                        <li className="small-screen">All men are my brothers yet I am different from each.</li>
                         <li>I am a unique creature.</li>
                         <li>Henceforth, I will capitalize on this difference for it is an asset to be promoted to the fullest.</li>
-                        <li>I will place my uniqueness on display in the market place.</li>
-                        <li>I will begin now to accent my differences; hide my similarities.</li>
-                        <li>I will win for I am unique.</li>
+                        <li className="small-screen">I will place my uniqueness on display in the market place.</li>
+                        <li className="small-screen">I will begin now to accent my differences; hide my similarities.</li>
+                        <li className="small-screen">I will win for I am unique.</li>
                     </ul>
                 </div>
             </div>

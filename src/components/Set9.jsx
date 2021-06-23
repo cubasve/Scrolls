@@ -16,18 +16,18 @@ import {
 
 export default function setNine() {
     return (
-        <>
+        <div className="page book book-page">
             <div className="page half front">
                 <div className="content">
                     <h1>Page 17</h1>
                     <FontAwesomeIcon icon={faGrinTears} size="3x" />
-                    <p>
-                        How can I laugh when confronted with man or deed which offends me?
-                        Whenever good humor threatens to depart from me, say 'This too shall pass'.
-                        For all worldly things shall indeed pass.
-                        And with laughter all things will be reduced to their proper size.
-                        Each day will be triumphant only when my smiles bring forth smiles from others.
-                    </p> 
+                    <ul>
+                        <li className="small-screen">How can I laugh when confronted with man or deed which offends me?</li>
+                        <li>Whenever good humor threatens to depart from me, say 'This too shall pass'.</li>
+                        <li>For all worldly things shall indeed pass.</li>
+                        <li>And with laughter all things will be reduced to their proper size.</li>
+                        <li className="small-screen">Each day will be triumphant only when my smiles bring forth smiles from others.</li>
+                    </ul> 
                 </div>
             </div>
 
@@ -43,6 +43,6 @@ export default function setNine() {
                     <FontAwesomeIcon icon={faChartLine} size="3x" />
                 </div>
             </div>
-        </>
+        </div>
     );
 }

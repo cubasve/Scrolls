@@ -18,8 +18,8 @@ export default function setThree() {
                     <ul>
                         <li>The only difference between those who have failed and those who have succeeded lies in the difference of their habits. </li>
                         <li>Good habits are the key to all success.</li>
-                        <li>Bad habits are the unlocked door to failure.</li>
-                        <li>Thus, I will form good habits and become their slave.</li>
+                        <li className="small-screen">Bad habits are the unlocked door to failure.</li>
+                        <li className="small-screen">Thus, I will form good habits and become their slave.</li>
                     </ul>
                 </div>
             </div>

@@ -19,8 +19,8 @@ export default function setFour() {
                         <li>I will look on all things with love.</li>
                         <li>I will love the ambitious for they can inspire me. </li>
                         <li>I will love the failures for they teach me.</li>
-                        <li>Love is my shield to repulse the arrows of hate and the spears of anger.</li>
-                        <li>And most of all I will love myself. For when I do I will zealously inspect all things which enter my body, my mind, my soul, and my heart.</li>
+                        <li className="small-screen">Love is my shield to repulse the arrows of hate and the spears of anger.</li>
+                        <li className="small-screen">And most of all I will love myself. For when I do I will zealously inspect all things which enter my body, my mind, my soul, and my heart.</li>
                     </ul>
                 </div>
             </div>

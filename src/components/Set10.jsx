@@ -16,20 +16,20 @@ import {
 
 export default function setTen() {
     return (
-        <>
+        <div className="page book book-page">
             <div className="page half front">
                 <div className="content">
                     <h1>Page 19</h1>
                     <FontAwesomeIcon icon={faChartLine} size="3x" />
-                    <p>
-                        I will not commit not the terrible crime of aiming too low.
-                        I will do the work that a failure will not do.
-                        I will always let my reach exceed my grasp.
-                        I will never be content with my performance in the market.
-                        I will always raise my goals as soon as they are attained.
-                        I will always strive to make the next hour better than this one.
-                        I will always announce my goals to the world.
-                    </p>
+                    <ul>
+                        <li className="small-screen">I will not commit not the terrible crime of aiming too low.</li>
+                        <li className="small-screen">I will do the work that a failure will not do.</li>
+                        <li className="small-screen">I will always let my reach exceed my grasp.</li>
+                        <li className="small-screen">I will never be content with my performance in the market.</li>
+                        <li>I will always raise my goals as soon as they are attained.</li>
+                        <li>I will always strive to make the next hour better than this one.</li>
+                        <li>I will always announce my goals to the world.</li>
+                    </ul>
                 </div>
             </div>
 
@@ -45,6 +45,6 @@ export default function setTen() {
                     <FontAwesomeIcon icon={faRunning} size="3x" />
                 </div>
             </div>
-        </>
+        </div>
     );
 }

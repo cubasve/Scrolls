@@ -19,12 +19,12 @@ export default function setFive() {
                         <li>Failure I may still encounter at the thousandth step, 
                         yet success hides behind the next bend in the road.</li>
                         <li>Always will I take another step.</li>
-                        <li>I must fail often to succeed only once.</li>
-                        <li>When each day is ended, not regarding whether it has been a success of a failure,
+                        <li className="small-screen">I must fail often to succeed only once.</li>
+                        <li className="small-screen">When each day is ended, not regarding whether it has been a success of a failure,
                         I will attempt to achieve one more sale.</li>
-                        <li>Never will I allow any day to end in failure.</li>
-                        <li>Nor will I allow yesterday's success to lull me into today's complacency.</li>
-                        <li>If I persist long enough I will win.</li>
+                        <li className="small-screen">Never will I allow any day to end in failure.</li>
+                        <li className="small-screen">Nor will I allow yesterday's success to lull me into today's complacency.</li>
+                        <li className="small-screen">If I persist long enough I will win.</li>
                     </ul>
                 </div>
             </div>

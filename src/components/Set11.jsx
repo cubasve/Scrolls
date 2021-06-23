@@ -16,20 +16,19 @@ import {
 
 export default function setEleven() {
     return (
-        <>
+        <div className="page book book-page">
             <div className="page half front">
                 <div className="content">
                     <h1>Page 21</h1>
                     <FontAwesomeIcon icon={faRunning} size="3x" />
-                    <p>
-                        My dreams are worthless, my plans are dust, my goals are impossible.
-                        All are of no value unless they are followed by action.
-                        Let me act now even though my actions may not bring happiness or success
-                        for it is better to act and fail than not to act and flounder.
-                        Only action determines my value in the market place and to multiply my
-                        value I will my actions.
-
-                    </p>
+                    <ul>
+                        <li>My dreams are worthless, my plans are dust, my goals are impossible.</li>
+                        <li className="small-screen">All are of no value unless they are followed by action.</li>
+                        <li className="small-screen">Let me act now even though my actions may not bring happiness or success
+                        for it is better to act and fail than not to act and flounder.</li>
+                        <li>Only action determines my value in the market place and to multiply my
+                        value I will my actions.</li>
+                    </ul>
                 </div>
             </div>
 
@@ -45,6 +44,6 @@ export default function setEleven() {
                     <FontAwesomeIcon icon={faBrain} size="3x" />
                 </div>
             </div>
-        </>
+        </div>
     );
 }

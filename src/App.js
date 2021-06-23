@@ -75,27 +75,29 @@ export default function App() {
         <SetFour />
         <SetFive />
         <SetSix />
-        {/* <SetSeven />
-        <SetEight /> */}
-        {/* <SetNine /> */}
-        {/* <SetTen /> */}
-        {/* <SetEleven /> */}
+        <SetSeven />
+        <SetEight />
+        <SetNine />
+        <SetTen />
+        <SetEleven />
 
         {/* Back of book */}
         <div className="page book cover back book-page">
-          <div className="content">
-            <h1>End of Book</h1>
-            <FontAwesomeIcon icon={faBrain} size="3x" />
-            <p>
-                Ask for guidance above all things.
-                Guide me so that I may acquire ability equal to my opportunities.
-                Teach me how to hunt with words and prosper with love so that I may
-                be a lion among men and an eagle in the market place.
-                Bathe me in good habits that the bad ones may drown.
-                Discipline me in the habit of trying and trying again.
-                Suffer me to know that all things shall pass; yet help me to count my blessings today.
-            </p>
-          </div>
+          
+            <div /*className="content"*/>
+                <h1>End of Book</h1>
+              <FontAwesomeIcon icon={faBrain} size="3x" />
+              <ul>
+                  <li>Ask for guidance above all things.</li>
+                  <li>Guide me so that I may acquire ability equal to my opportunities.</li>
+                  <li className="small-screen">Teach me how to hunt with words and prosper with love so that I may
+                  be a lion among men and an eagle in the market place.</li>
+                  <li className="small-screen">Bathe me in good habits that the bad ones may drown.</li>
+                  <li>Discipline me in the habit of trying and trying again.</li>
+                  <li className="small-screen">Suffer me to know that all things shall pass; yet help me to count my blessings today.</li>
+              </ul>
+            </div>
+     
         </div>
 
       </div>

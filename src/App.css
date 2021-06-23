@@ -2,7 +2,7 @@
   --page-count: 23;
   /* 11 */
   --page-index: 0;
-  --page-scroll: 30;
+  --page-scroll: 21.5;
   /* 26 */
 }
 
@@ -99,4 +99,11 @@
 
 .scroll-number {
   padding: 0px 5px;
+}
+
+/*There is too much info for smaller screens - hide some info*/
+@media only screen and (max-width: 700px) {
+  li.small-screen {
+    display: none;
+  }
 }

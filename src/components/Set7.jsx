@@ -16,20 +16,20 @@ import {
 
 export default function setSeven() {
     return (
-        <>
+        <div className="page book book-page">
             <div className="page half front">
                 <div className="content">
                     <h1>Page 13</h1>
                     <FontAwesomeIcon icon={faClock} size="3x" />
-                    <p>
-                        I will avoid with fury the killers of time.
-                        Procrastination I will destroy with action.
-                        The duties of today I shall fulfill today.
-                        This day I will make the best day of my life.
-                        I will make every hour count and each minute I will trade only for something of value.
-                        Each minute of today will be more fruitful than hours of yesterday.
-                        My last must be my best.
-                    </p>
+                    <ul>
+                        <li>I will avoid with fury the killers of time.</li>
+                        <li>Procrastination I will destroy with action.</li>
+                        <li>The duties of today I shall fulfill today.</li>
+                        <li className="small-screen">This day I will make the best day of my life.</li>
+                        <li className="small-screen">I will make every hour count and each minute I will trade only for something of value.</li>
+                        <li className="small-screen">Each minute of today will be more fruitful than hours of yesterday.</li>
+                        <li className="small-screen">My last must be my best.</li>
+                    </ul>
                 </div>
             </div>
 
@@ -44,6 +44,6 @@ export default function setSeven() {
                     <h3>I will be the master of my emotions</h3>
                 </div>
             </div>
-        </>
+        </div>
     );
 }

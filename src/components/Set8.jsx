@@ -16,19 +16,19 @@ import {
 
 export default function setEight() {
     return (
-        <>
+        <div className="page book book-page">
             <div className="page half front">
                 <div className="content">
                     <h1>Page 15</h1>
                     <FontAwesomeIcon icon={faSmile} size="3x" />
-                    <p>
-                        Each day I awaken with moods that have changed from yesterday.
-                        Trees and plants depend on the weather to flourish but I make my own weather.
-                        Weak is he who permits his thoughts to control his actions;
-                        strong is he who forces his actions to control his thoughts.
-                        I am prepared to control whatever personality awakes in me each day.
-                        I will master my moods through positive action and when I master my moods I will control my destiny.
-                    </p>
+                    <ul>
+                        <li className="small-screen">Each day I awaken with moods that have changed from yesterday.</li>
+                        <li >Trees and plants depend on the weather to flourish but I make my own weather.</li>
+                        <li>Weak is he who permits his thoughts to control his actions;
+                        strong is he who forces his actions to control his thoughts.</li>
+                        <li className="small-screen">I am prepared to control whatever personality awakes in me each day.</li>
+                        <li className="small-screen">I will master my moods through positive action and when I master my moods I will control my destiny.</li>
+                    </ul>
                 </div>
             </div>
 
@@ -44,6 +44,6 @@ export default function setEight() {
                     <FontAwesomeIcon icon={faGrinTears} size="3x" />
                 </div>
             </div>
-        </>
+        </div>
     );
 }
