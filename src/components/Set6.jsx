@@ -13,7 +13,7 @@ export default function setSix() {
         <div className="page book book-page">
             <div className="page half front">
                 <div className="content">
-                    <h6>Page 11</h6>
+                    {/* <h6>Page 11</h6> */}
                     <FontAwesomeIcon icon={faPaw} size="3x" />
                     <ul>
                         <li className="small-screen">All men are my brothers yet I am different from each.</li>
@@ -28,7 +28,7 @@ export default function setSix() {
 
             <div className="page half back">
                 <div className="content">
-                    <h6>Page 12</h6>
+                    {/* <h6>Page 12</h6> */}
                     <span className="scroll-icon">
                         <FontAwesomeIcon icon={faScroll} size="1x" />
                         <span className="scroll-number">5</span>

@@ -13,7 +13,7 @@ export default function setFive() {
         <div className="page book book-page">
              <div className="page half front">
                 <div className="content">
-                    <h6>Page 9</h6>
+                    {/* <h6>Page 9</h6> */}
                     <FontAwesomeIcon icon={faFistRaised} size="3x" />
                     <ul>
                         <li>Failure I may still encounter at the thousandth step, 
@@ -31,7 +31,7 @@ export default function setFive() {
 
             <div className="page half back">
                 <div className="content">
-                    <h6>Page 10</h6>
+                    {/* <h6>Page 10</h6> */}
                     <span className="scroll-icon">
                         <FontAwesomeIcon icon={faScroll} size="1x" />
                         <span className="scroll-number">4</span>

@@ -19,7 +19,7 @@ export default function setSeven() {
         <div className="page book book-page">
             <div className="page half front">
                 <div className="content">
-                    <h1>Page 13</h1>
+                    {/* <h6>Page 13</h6> */}
                     <FontAwesomeIcon icon={faClock} size="3x" />
                     <ul>
                         <li>I will avoid with fury the killers of time.</li>
@@ -35,13 +35,14 @@ export default function setSeven() {
 
             <div className="page half back">
                 <div className="content">
-                    <h1>Page 14</h1>
+                    {/* <h6>Page 14</h6> */}
                     <span className="scroll-icon">
                         <FontAwesomeIcon icon={faScroll} size="1x" />
                         <span className="scroll-number">6</span>
                         <FontAwesomeIcon icon={faScroll} size="1x" flip="horizontal" />
                     </span>
                     <h3>I will be the master of my emotions</h3>
+                     <FontAwesomeIcon icon={faSmile} size="3x" />
                 </div>
             </div>
         </div>

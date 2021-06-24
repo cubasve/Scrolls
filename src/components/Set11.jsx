@@ -19,7 +19,7 @@ export default function setEleven() {
         <div className="page book book-page">
             <div className="page half front">
                 <div className="content">
-                    <h1>Page 21</h1>
+                    {/* <h6>Page 21</h6> */}
                     <FontAwesomeIcon icon={faRunning} size="3x" />
                     <ul>
                         <li>My dreams are worthless, my plans are dust, my goals are impossible.</li>
@@ -34,7 +34,7 @@ export default function setEleven() {
 
             <div className="page half back">
                 <div className="content">
-                    <h1>Page 22</h1>
+                    {/* <h6>Page 22</h6> */}
                     <span className="scroll-icon">
                         <FontAwesomeIcon icon={faScroll} size="1x" />
                         <span className="scroll-number">10</span>

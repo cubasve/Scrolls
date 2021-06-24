@@ -19,7 +19,7 @@ export default function setTen() {
         <div className="page book book-page">
             <div className="page half front">
                 <div className="content">
-                    <h1>Page 19</h1>
+                    {/* <h6>Page 19</h6> */}
                     <FontAwesomeIcon icon={faChartLine} size="3x" />
                     <ul>
                         <li className="small-screen">I will not commit not the terrible crime of aiming too low.</li>
@@ -35,7 +35,7 @@ export default function setTen() {
 
             <div className="page half back">
                 <div className="content">
-                    <h1>Page 20</h1>
+                    {/* <h6>Page 20</h6> */}
                     <span className="scroll-icon">
                         <FontAwesomeIcon icon={faScroll} size="1x" />
                         <span className="scroll-number">9</span>

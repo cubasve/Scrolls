@@ -19,7 +19,7 @@ export default function setEight() {
         <div className="page book book-page">
             <div className="page half front">
                 <div className="content">
-                    <h1>Page 15</h1>
+                    {/* <h6>Page 15</h6> */}
                     <FontAwesomeIcon icon={faSmile} size="3x" />
                     <ul>
                         <li className="small-screen">Each day I awaken with moods that have changed from yesterday.</li>
@@ -34,7 +34,7 @@ export default function setEight() {
 
             <div className="page half back">
                 <div className="content">
-                    <h1>Page 16</h1>
+                    {/* <h6>Page 16</h6> */}
                     <span className="scroll-icon">
                         <FontAwesomeIcon icon={faScroll} size="1x" />
                         <span className="scroll-number">7</span>

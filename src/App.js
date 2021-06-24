@@ -84,8 +84,8 @@ export default function App() {
         {/* Back of book */}
         <div className="page book cover back book-page">
           
-            <div /*className="content"*/>
-                <h1>End of Book</h1>
+            <div className="content last-page">
+                {/* <h6>End of Book</h6> */}
               <FontAwesomeIcon icon={faBrain} size="3x" />
               <ul>
                   <li>Ask for guidance above all things.</li>

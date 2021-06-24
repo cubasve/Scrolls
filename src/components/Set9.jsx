@@ -19,7 +19,7 @@ export default function setNine() {
         <div className="page book book-page">
             <div className="page half front">
                 <div className="content">
-                    <h1>Page 17</h1>
+                    {/* <h6>Page 17</h6> */}
                     <FontAwesomeIcon icon={faGrinTears} size="3x" />
                     <ul>
                         <li className="small-screen">How can I laugh when confronted with man or deed which offends me?</li>
@@ -33,7 +33,7 @@ export default function setNine() {
 
             <div className="page half back">
                 <div className="content">
-                    <h1>Page 18</h1>
+                    {/* <h6>Page 18</h6> */}
                     <span className="scroll-icon">
                         <FontAwesomeIcon icon={faScroll} size="1x" />
                         <span className="scroll-number">8</span>

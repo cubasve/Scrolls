@@ -17,7 +17,7 @@ export default function setTwo() {
 
             <div className="page half back">
             <div className="content">
-                    <h6>Page 4</h6>
+                    {/* <h6>Page 4</h6> */}
                     <span className="scroll-icon">
                         <FontAwesomeIcon icon={faScroll} size="1x" />
                         <span className="scroll-number">1</span>

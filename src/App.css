@@ -85,12 +85,18 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
   align-items: center;
   justify-content: center;
   border-radius: 5%;
   padding: 20px;
+}
+
+.last-page {
+  height: 100%;
+}
+
+.content > ul {
+  text-align: left;
 }
 
 .scroll-icon {
@@ -102,8 +108,15 @@
 }
 
 /*There is too much info for smaller screens - hide some info*/
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 650px) {
   li.small-screen {
+    display: none;
+  }
+}
+
+/*Remove content if screen's height is < 400px */
+@media only screen and (max-height: 400px) {
+  .content {
     display: none;
   }
 }
