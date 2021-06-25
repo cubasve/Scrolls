@@ -13,7 +13,7 @@ export default function setFour() {
 			<div className="page half front">
 				<div className="content">
 					{/* <h6>Page 7</h6> */}
-					<FontAwesomeIcon icon={faHeart} size="3x" />
+					<FontAwesomeIcon icon={faHeart} size="3x" color="#00a86b" />
 					<ul>
 						<li>I will look on all things with love.</li>
 						<li>I will love the ambitious for they can inspire me. </li>

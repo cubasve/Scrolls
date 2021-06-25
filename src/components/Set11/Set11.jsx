@@ -13,7 +13,7 @@ export default function setEleven() {
 			<div className="page half front nine-content">
 				<div className="content">
 					{/* <h6>Page 21</h6> */}
-					<FontAwesomeIcon icon={faRunning} size="3x" />
+					<FontAwesomeIcon icon={faRunning} size="3x" color="#00a86b" />
 					<ul>
 						<li>
 							My dreams are worthless, my plans are dust, my goals are

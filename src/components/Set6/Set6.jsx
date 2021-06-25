@@ -9,7 +9,7 @@ export default function setSix() {
 			<div className="page half front">
 				<div className="content">
 					{/* <h6>Page 11</h6> */}
-					<FontAwesomeIcon icon={faPaw} size="3x" />
+					<FontAwesomeIcon icon={faPaw} size="3x" color="#00a86b" />
 					<ul>
 						<li className="small-screen">
 							All men are my brothers yet I am different from each.

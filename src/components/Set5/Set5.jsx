@@ -13,7 +13,7 @@ export default function setFive() {
 			<div className="page half front">
 				<div className="content">
 					{/* <h6>Page 9</h6> */}
-					<FontAwesomeIcon icon={faFistRaised} size="3x" />
+					<FontAwesomeIcon icon={faFistRaised} size="3x" color="#00a86b" />
 					<ul>
 						<li>
 							Failure I may still encounter at the thousandth step, yet success

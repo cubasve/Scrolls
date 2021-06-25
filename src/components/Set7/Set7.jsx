@@ -9,7 +9,7 @@ export default function setSeven() {
 			<div className="page half front five-content">
 				<div className="content">
 					{/* <h6>Page 13</h6> */}
-					<FontAwesomeIcon icon={faClock} size="3x" />
+					<FontAwesomeIcon icon={faClock} size="3x" color="#00a86b" />
 					<ul>
 						<li>I will avoid with fury the killers of time.</li>
 						<li>Procrastination I will destroy with action.</li>

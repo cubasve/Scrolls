@@ -13,7 +13,7 @@ export default function setTen() {
 			<div className="page half front eight-content">
 				<div className="content">
 					{/* <h6>Page 19</h6> */}
-					<FontAwesomeIcon icon={faChartLine} size="3x" />
+					<FontAwesomeIcon icon={faChartLine} size="3x" color="#00a86b" />
 					<ul>
 						<li className="small-screen">
 							I will not commit not the terrible crime of aiming too low.

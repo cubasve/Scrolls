@@ -13,7 +13,7 @@ export default function setEight() {
 			<div className="page half front six-content">
 				<div className="content">
 					{/* <h6>Page 15</h6> */}
-					<FontAwesomeIcon icon={faSmile} size="3x" />
+					<FontAwesomeIcon icon={faSmile} size="3x" color="#00a86b" />
 					<ul>
 						<li className="small-screen">
 							Each day I awaken with moods that have changed from yesterday.

@@ -16,7 +16,7 @@ export default function setThree() {
 			<div className="page half front">
 				<div className="content">
 					{/* <h6>Page 5</h6> */}
-					<FontAwesomeIcon icon={faSyncAlt} size="3x" />
+					<FontAwesomeIcon icon={faSyncAlt} size="3x" color="#00a86b" />
 					<ul>
 						<li>
 							The only difference between those who have failed and those who

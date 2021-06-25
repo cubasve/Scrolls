@@ -13,7 +13,7 @@ export default function setNine() {
 			<div className="page half front seven-content">
 				<div className="content">
 					{/* <h6>Page 17</h6> */}
-					<FontAwesomeIcon icon={faGrinTears} size="3x" />
+					<FontAwesomeIcon icon={faGrinTears} size="3x" color="#00a86b" />
 					<ul>
 						<li className="small-screen">
 							How can I laugh when confronted with man or deed which offends me?
