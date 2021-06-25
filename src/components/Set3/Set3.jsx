@@ -3,8 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faSyncAlt,
 	faHeart,
-	faFistRaised,
-	faPaw,
 	faScroll,
 } from "@fortawesome/free-solid-svg-icons";
 import "./Set3.css";

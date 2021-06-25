@@ -3,9 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faHeart,
 	faFistRaised,
-	faClock,
 	faScroll,
-	faSmile,
 } from "@fortawesome/free-solid-svg-icons";
 import "./Set4.css";
 

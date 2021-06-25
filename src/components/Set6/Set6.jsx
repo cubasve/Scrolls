@@ -1,12 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faPaw,
-	faClock,
-	faBrain,
-	faRunning,
-	faScroll,
-} from "@fortawesome/free-solid-svg-icons";
+import { faPaw, faClock, faScroll } from "@fortawesome/free-solid-svg-icons";
 import "./Set6.css";
 
 export default function setSix() {

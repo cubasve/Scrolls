@@ -1,18 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faScroll,
-	faSyncAlt,
-	faHeart,
-	faFistRaised,
-	faPaw,
-	faClock,
-	faSmile,
-	faGrinTears,
-	faChartLine,
-	faRunning,
-	faBrain,
-} from "@fortawesome/free-solid-svg-icons";
+import { faScroll, faClock, faSmile } from "@fortawesome/free-solid-svg-icons";
 import "./Set7.css";
 
 export default function setSeven() {
