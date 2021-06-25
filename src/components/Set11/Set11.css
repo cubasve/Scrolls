@@ -1,0 +1,13 @@
+.nine-content {
+	background-image: url("../../images/loveContent.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.ten-title {
+	background-image: url("../../images/loveTitle.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

@@ -13,11 +13,12 @@ import {
 	faRunning,
 	faBrain,
 } from "@fortawesome/free-solid-svg-icons";
+import "./Set11.css";
 
 export default function setEleven() {
 	return (
 		<div className="page book book-page">
-			<div className="page half front">
+			<div className="page half front nine-content">
 				<div className="content">
 					{/* <h6>Page 21</h6> */}
 					<FontAwesomeIcon icon={faRunning} size="3x" />
@@ -42,7 +43,7 @@ export default function setEleven() {
 				</div>
 			</div>
 
-			<div className="page half back">
+			<div className="page half back ten-title">
 				<div className="content">
 					{/* <h6>Page 22</h6> */}
 					<span className="scroll-icon">
