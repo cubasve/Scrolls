@@ -80,7 +80,7 @@ export default function App() {
 				<SetEleven />
 
 				{/* Back of book */}
-				<div className="page book cover back book-page">
+				<div className="page book cover back book-page ten-content">
 					<div className="content last-page">
 						{/* <h6>End of Book</h6> */}
 						<FontAwesomeIcon icon={faBrain} size="3x" />

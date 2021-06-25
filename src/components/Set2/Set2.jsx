@@ -9,11 +9,12 @@ import {
 	faUnlockAlt,
 	faDoorOpen,
 } from "@fortawesome/free-solid-svg-icons";
+import "./Set2.css";
 
 export default function setTwo() {
 	return (
 		<div className="page book book-page">
-			<div className="page half front">
+			<div className="page half front zero-unlock">
 				<div className="content">
 					{/* <h6>Page 3</h6> */}
 					<h3>
@@ -29,7 +30,7 @@ export default function setTwo() {
 				</div>
 			</div>
 
-			<div className="page half back">
+			<div className="page half back one-title">
 				<div className="content">
 					{/* <h6>Page 4</h6> */}
 					<span className="scroll-icon">

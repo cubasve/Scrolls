@@ -123,6 +123,13 @@
 	padding-top: 30px;
 }
 
+.ten-content {
+	background-image: url("./images/loveTitle.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 /*There is too much info for smaller screens - hide some info*/
 @media only screen and (max-width: 650px) {
 	li.small-screen {

@@ -1,11 +1,12 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faScroll } from "@fortawesome/free-solid-svg-icons";
+import "./Set1.css";
 
 export default function setOne() {
 	return (
 		<div className="page book cover front book-page">
-			<div className="page half front">
+			<div className="page half front zero-title">
 				<div className="content">
 					{/* <h6>Page 1</h6> */}
 					<span className="scroll-icon">
@@ -19,7 +20,7 @@ export default function setOne() {
 				</div>
 			</div>
 
-			<div className="page half back">
+			<div className="page half back zero-shoutout">
 				<div className="content">
 					{/* <h6>Page 2</h6> */}
 					<p>
