@@ -131,6 +131,9 @@
 	li.small-screen {
 		display: none;
 	}
+	.content {
+		padding: 1px;
+	}
 }
 
 /*Remove content if screen's height is < 400px */
